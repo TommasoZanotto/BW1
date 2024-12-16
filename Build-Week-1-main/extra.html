@@ -15,5 +15,9 @@
         <div id="score"></div> 
         <div id="messageResults"></div> 
         </div>
+    <script>
+            const score = localStorage.getItem("quizScore");
+            document.querySelector("#score").textContent = `Il tuo punteggio è: ${score !== null ? score : 0} su 10`;
+        </script>
 </body>
 </html>
