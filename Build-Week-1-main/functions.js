@@ -106,6 +106,7 @@ let usedQuestions = []
 
 function benchmarkQuestion() {
   if (contatore >= 10) {
+    localStorage.setItem("quizScore", score)
     window.open("welcome.html", "_self") //apre una nuova pagina dopo la decima domanda 
     for (let i = 0; i < BUTTONS.length; i++) {
       BUTTONS[i].disabled = true;  
