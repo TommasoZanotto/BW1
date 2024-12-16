@@ -1,0 +1,19 @@
+.timerContainer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.timerContainer svg {
+    transform: rotate(-90deg);
+}
+
+.timerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+}

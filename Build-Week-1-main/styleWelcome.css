@@ -1,0 +1,115 @@
+/* Generale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    color: white;
+    background-image:url("bg.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+
+.container1 {
+    width: 850px;
+    position: relative;
+    margin-left: 10%; 
+}
+
+/* Logo */
+header img {
+    position: absolute;
+    top: 20px;
+    left: 0;  
+    width: 120px;
+}
+
+/* Titolo principale */
+.title {
+    position: absolute;
+    top: 120px;  /* Distanza tra logo e titolo principale */
+    left: 0;
+    font-size: 60px;  
+    color: white;
+}
+
+/* Titolo secondario (istruzioni) */
+.instructions {
+    position: absolute;
+    top: 270px;  
+    left: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d20094;
+}
+
+/* Paragrafo */
+.instructionText {
+    position: absolute;
+    top: 320px;  
+    left: 0;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    width: 80%;  
+}
+
+/* Elenco puntato  */
+.instructionText ul {
+
+    margin-left: 40px;  
+    margin-top: 40px;  
+}
+
+.instructionText li {
+    margin-bottom: 10px;
+}
+
+/* Checkbox */
+#checkbox {
+    margin-top: 37em;
+    left: 0;
+    font-size: 18px;
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+
+
+/* Bottone "PROCEED" */
+#button {
+    bottom: 80px;  
+    left: 40px;  
+    width: 200px;
+    height: 50px;
+    background-color: #00FFFF;
+    box-shadow: 0 0 10px rgba(0, 194, 255, 0.5);
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+#button:hover {
+    box-shadow: 0 0 20px rgba(0, 194, 255, 1);
+}
+
+
+
+
+
+
+
+
+

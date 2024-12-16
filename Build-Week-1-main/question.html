@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleQuestion.css">
+    <title>Epicode Benchmark</title>
+</head>
+
+<body>
+    <div class="container2">
+        <header>
+            <img src="epicode_logo.png" alt="logo epicode">
+        </header>
+        <div class="timerContainer">
+            <svg width="150" height="150">
+                <circle cx="75" cy="75" r="70" fill="none" stroke="#7573742f" stroke-width="10" />
+                <circle id="progress-circle" cx="75" cy="75" r="70" fill="none" stroke="#00FFFF" stroke-width="10" stroke-dasharray="439.82" stroke-dashoffset="0" />
+            </svg>
+            <div class="timerText" id="timerText">30</div>
+        </div>
+        <div class="questionContainer">
+            <div id="question"></div>
+            <div id="options">
+                <button class="option" value=""></button>
+                <button class="option" value=""></button>
+                <button class="option" value=""></button>
+                <button class="option" value=""></button>
+               
+            </div> 
+            <div class="questionsCounter"></div>
+        </div>
+    </div>
+    <script src="functions.js"></script>
+</body>    
